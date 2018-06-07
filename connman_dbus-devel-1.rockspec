@@ -1,8 +1,8 @@
 package = "connman_dbus"
- version = "0.1.0-1"
+ version = "devel-1"
  source = {
     url = "git://github.com/stefano-m/lua-connman_dbus",
-    tag = "v0.1.0"
+    tag = "master"
  }
  description = {
     summary = "Get network information with Connman and DBus",
@@ -12,7 +12,7 @@ package = "connman_dbus"
  }
  dependencies = {
     "lua >= 5.1",
-    "ldbus_api >= 0.9.0, < 0.10"
+    "dbus_proxy"
  }
  supported_platforms = { "linux" }
  build = {
