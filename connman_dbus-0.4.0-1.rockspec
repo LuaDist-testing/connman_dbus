@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "connman_dbus"
-version = "0.3.0-1"
+version = "0.4.0-1"
 -- LuaDist source
 source = {
-  tag = "0.3.0-1",
+  tag = "0.4.0-1",
   url = "git://github.com/LuaDist-testing/connman_dbus.git"
 }
 -- Original source
 -- source = {
 --    url = "git://github.com/stefano-m/lua-connman_dbus",
---    tag = "v0.3.0"
+--    tag = "v0.4.0"
 -- }
 description = {
    summary = "Get network information with Connman and DBus",
@@ -23,7 +23,7 @@ supported_platforms = {
 }
 dependencies = {
    "lua >= 5.1",
-   "dbus_proxy >= 0.8.1, < 0.9"
+   "dbus_proxy >= 0.9.0, < 0.10"
 }
 build = {
    type = "builtin",
